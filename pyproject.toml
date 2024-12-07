@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "demo-code"
+version = "0.1.0"
+description = ""
+authors = ["SanjayaElvitigala <elvitigalasanjaya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cryptography = "^44.0.0"
+azure-functions = "^1.21.3"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+matplotlib = "^3.9.3"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

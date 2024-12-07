@@ -1,0 +1,5 @@
+- name: give_analysis
+  description: receive analysis of the google sheet
+
+- name: give_viz_analysis
+  description: receive graphical analysis of the google sheet
